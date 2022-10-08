@@ -1,0 +1,194 @@
+:root{
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url("../pizza/images/wood-2203740_1280.jpg");
+    background-size: cover;
+    font-family: Cookie, cursive;
+}
+
+#header{
+    width: 100%;
+    padding: 1px;
+    background-color: black;
+    color: aliceblue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#header .logo{
+    max-width: 20%;
+    float: left;
+    margin: auto;
+    margin-left: 2%;
+
+}
+
+#header .logo img{
+    max-width: 30%;
+}
+
+.navigation{
+    width: 60%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.navigation-bar{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navigation-bar li{
+    display: inline-block;
+    padding: 2%;
+}
+
+.navigation-bar li a{
+    color: aliceblue;
+}
+
+.navigation-bar li a:hover{
+    text-decoration: underline;
+    color: burlywood;
+}
+
+#header .phone-number{
+    width: 20%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.slider-box{
+    background-color: black;
+    height: 180px;
+    width: 100%;
+    margin: auto;
+    color: aliceblue;
+}
+
+.slider-half{
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding: 10px;
+}
+
+.slider-half article{
+    margin: 20px;
+    font-size: 1.3rem;
+}
+
+.slider-half button{
+    margin-left: 20px;
+    border-style: double;
+    border: lightblue solid;
+    background-color: rgba(173, 216, 230, 0.488);
+    color: lightblue;
+}
+
+.slider-half button:hover{
+    transform: scale(1.02);
+    background-color: rgba(128, 128, 128, 0.249);
+    transition: all 0.2s;
+}
+
+.right{
+    background-image: url("../pizza/images/pizza-3007395_1280.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.advatages-container{
+    margin: auto;
+    width: 100%;
+}
+
+.topic{
+    width: 33.3%;
+    float: left;
+    padding: 20px;
+    margin: 30px 0px 30px;
+    height: 200px;
+}
+
+.advatages-column{
+    height: 160px;
+    border: 5px solid black;
+    color: white;
+    position: relative;
+}
+
+.bottom-right{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-weight: bolder;
+}
+
+.first-advatage{
+    background-image: url("../pizza/images/olive-oil-1412361__340.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.second-advatage{
+    background-image: url("../pizza/images/cook-1375788_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.third-advatage{
+    background-image: url("../pizza/images/motor-scooter-4837310_960_720.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+#pizza-container{
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#pizza-container .pizza{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.pizza-font-style{
+    font-size: 1.2rem;
+}
+
+#pizza-container .pizza img{
+    max-width: 80%;
+    float: left;
+    margin: auto;
+}
+
+
+#footer{
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
